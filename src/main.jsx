@@ -5,7 +5,7 @@ import './index.css'
 //import { Memorize } from './06-memos/Memorize'
 //import { MemorizeHook } from './06-memos/MemorizeHook'
 //import { CallBackHook } from './06-memos/CallBackHook'
-import { Padre } from './07-tarea-memo/Padre'
+//import { Padre } from './07-tarea-memo/Padre'
 //import { Layout } from './05-useLayoutEffect/UseLayout'
 //import { FocusScreen } from './04-useRef/FocusScreen'
 //import { MultipleCustomHooks } from './03-ejemplos/MultipleCustomHooks'
@@ -13,10 +13,12 @@ import { Padre } from './07-tarea-memo/Padre'
 //import { CounterApp } from './01-useState/CounterApp'
 //import { CounterCustomHook } from './01-useState/CounterCustomHook'
 //import { SimpleForm } from './02-useEfect/SimpleForm'
+//import './08-useReducer/intro-reducer'
+import { TodoApp } from './08-useReducer/TodoApp'
 
 
 ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
-    < Padre/>
+    <TodoApp/>
   </React.StrictMode>,
 )
